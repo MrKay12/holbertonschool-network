@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
+# Description: List all the ports that are listening on the system
 
 sudo netstat -tunlp | grep LISTEN
